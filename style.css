@@ -1,0 +1,58 @@
+body{
+    font-family: 'Playfair Display', serif;
+    width: 1200px;
+}
+.navigator{
+    margin-left: 25%;
+}
+.navigator li{
+    color: #7D7D7D;
+    display: inline-block;
+    margin-right: 100px;
+    height: 19px;
+    font-size: 14px;
+
+}
+.navigator li:last-child{
+    margin: 0;
+}
+.navigator a{
+    color:#7D7D7D;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigator a:hover{
+    color: #03A9F4;
+    text-decoration: underline;
+}
+.photoblock{
+    width: 420px;
+    padding:92px 65px 0 145px;
+}
+.photoblock img{
+    width: 420px;
+    height: 280px;
+}
+.photoblock h3{
+    color:#B4AD9E;
+    height: 16px;
+    width: 64px;
+    font-family: 'Ubuntu',serif;
+    margin-top: 62px;
+}
+.photoblock h2{
+    color:#626262;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+.photoblock p{
+    color:#626262;
+    font-size: 14px;
+    margin-top: 40px;
+}
+button{
+    margin: 94px 525px 66px 585px;
+    width: 165px;
+    height: 60px;
+}
