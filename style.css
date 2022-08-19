@@ -3,7 +3,7 @@ body{
     width: 1200px;
 }
 .navigator{
-    margin-left: 25%;
+    margin-left: 315px;
 }
 .navigator li{
     color: #7D7D7D;
@@ -27,7 +27,7 @@ body{
 }
 .photoblock{
     width: 420px;
-    padding:92px 65px 0 145px;
+    padding:126px 64px 0 149px;
 }
 .photoblock img{
     width: 420px;
@@ -52,7 +52,8 @@ body{
     margin-top: 40px;
 }
 button{
-    margin: 94px 529px 66px 506px;
     width: 165px;
     height: 60px;
+    margin: 94px 529px 66px 506px;
+    font-family: 'Playfair Display', serif;
 }
