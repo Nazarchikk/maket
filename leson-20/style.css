@@ -73,7 +73,8 @@ p{
     height: 100%;
     transform: translateY(100%);
     background-color: blue;
-}
+}  
+
 .abc:hover p{
     transform: translateX(0);
 }
