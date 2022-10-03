@@ -21,17 +21,22 @@
     top: 180px;
     left: 200px;
 } */
-  body {
-    line-height: 1.5;
-    font-family: sans-serif;
-    background-color: #f9f9fd;
-  }
-  
-  h1{
-    text-align: center;
-    font-size: 15px;
-    writing-mode: vertical-lr;
+.h1{
+  color: white;
+  background-color: brown;
+  position: relative;
+  text-align: center;
+  width: 25px;
+  height: 300px;
+  font-size: 15px;
+  writing-mode: vertical-lr;
+  transform: translatex(0);
 }
+  .box:hover .h1{
+    transform: translatex(265px);
+    transition: transform 250ms ease;
+    color: brown;
+  }
   
   .box {
     position: relative;
@@ -41,12 +46,22 @@
   }
   .box:hover .overlay {
     transform: translatex(0);
+    background-color: brown;
+    color: white;
   }
-  
   .overlay {
+    padding-left: 35px;
+    position: relative;
+    top: -325px;
     padding-bottom: 10px;
-    width: 150px;
+    width: 200px;
     height: 100%;
     transform: translatex(-100%);
     transition: transform 250ms ease;
+  }
+   .overlay:first-child{
+    padding-top: 80px;
+  }
+  .overlay:last-child{
+    padding-bottom: 80px;
   }
