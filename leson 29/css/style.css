@@ -1,0 +1,11 @@
+.section {
+  width: 100%;
+  height: 350px;
+  background-color: aquamarine;
+}
+.section__title {
+  color: red;
+}
+.section__text {
+  font-size: 14px;
+}
